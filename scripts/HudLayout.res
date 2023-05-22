@@ -1,5 +1,5 @@
-#base "../scripts/Crosshairs/Crosshairs.res"
-
+//#base "../scripts/Crosshairs/Crosshairs.res"
+#base "../resource/crosshairs/crosshair.res"
 "Resource/HudLayout.res"
 {
     /////////////////////////////////////////////////////////////////////////////

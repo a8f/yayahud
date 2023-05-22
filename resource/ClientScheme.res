@@ -1,5 +1,5 @@
-#base "../scripts/crosshairs/font/Crosshairs.res"
-
+//base "../scripts/crosshairs/font/Crosshairs.res"
+#base "../resource/crosshairs/crosshair_scheme.res"
 Scheme
 {	
 	//////////////////////// COLORS ///////////////////////////
@@ -47,9 +47,10 @@ Scheme
         //Crosshairs can be activated in /scripts/hudlayout.res                                             
                                                      
       
-        "Ammo"                 "227 227 227 255"    //Current clip
-		"AmmoReserve"          "227 227 227 255"    //Reserve clip
-        "AmmoLow"              "187 187 187 255"    //Low ammo count
+        "Ammo"                 "48 255 48 255"    //Current clip
+		"AmmoReserve"          "72 255 255 255"    //Reserve clip
+        "AmmoLowReserve"       "255 42 130 255"    //Low ammo count
+        "AmmoLow"              "255 128 28 255"    //Low ammo count
         
         "ChargingUber"  "227 227 227 255"   //Percentage color when charging
         "UberMeter"     "22 182 71 255"     //Uber meter ready color
